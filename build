@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+./src/make
+#gcc -o discover Discovery/Blue_discover.c -lbluetooth
+gcc ./src/Zl2flood_alt.c -o ./altZl2flood -lbluetooth
